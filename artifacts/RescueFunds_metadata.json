@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"selfDestruct.sol": "RescueFunds"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"selfDestruct.sol": {
+			"keccak256": "0xf6235683eeccfaee52331b40c06494988eda1d12e7d1cac72e7b213675df89ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d6cc00d545ac6dac14d35e1f7c940d27d70763dc8d2f8a1992d04e7febc97ed0",
+				"dweb:/ipfs/QmXDTPv5Ep6wmmZpEZM5gS9osiAeQExpMTwakc7ytP4y9s"
+			]
+		}
+	},
+	"version": 1
+}
